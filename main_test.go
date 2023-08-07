@@ -18,4 +18,5 @@ func BenchmarkPrimeNumbers2(b *testing.B) {
 	for i := 0; i < b.N; i++ {
 		primeNumbers(num)
 	}
+	b.Log("Test")
 }
